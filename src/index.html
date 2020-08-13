@@ -2,33 +2,244 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+   <meta name="description" content="" />
+   <meta name="author" content="" />
 
-  <title>Чумак</title>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Tenor+Sans&display=swap" rel="stylesheet">
+
+
+   <title>Чумак</title>
 </head>
 
 <body>
-  <header class="header" role="header">
-    <div class="container">
-      <div class="row">
-        <div class="col-1">
-         
-        </div>
+   <!-- Swiper -->
+   <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+         <img src="../public/images/vital.png" alt="">
       </div>
+      <div class="swiper-slide">
+         <img src="../public/images/Спальні.png" alt="">
+      </div>
+      <div class="swiper-slide">
+         <img src="../public/images/Group 927.png" alt="">
+      </div>
+      <div class="swiper-slide">
+         <img src="../public/images/Кухні.png" alt="">
+      </div>
+
     </div>
-  </header>
+     <!-- Add Arrows -->
+     <div class="swiper-button-next"></div>
+     <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+  </div>
 
-  <main role="main">
+   <header class="header" role="header">
+      <div class="container">
+         <div class="row pt-3 justify-content-between align-items-center">
+            <div class="col-md-2">
+               <a href="#">
+                  <img src="../public/images/logo.png" class="logo" alt="Logo">
+               </a>
+            </div>
+            <div class="col-md-6">
+               <div class="d-flex justify-content-around info-top">
+                  <a href="#" class="d-inline-block">
+                     м. Львів, пр. Шевченка 11/9
+                  </a>
+                  <a href="#" class="d-inline-block">
+                     +38 (067) 673 3892
+                  </a>
+               </div>
+            </div>
+            <div class="col-md-2 d-flex align-items-center justify-content-around">
+               <!-- <div class="button_container" id="toggle">
+                  <span class="top"></span>
+                  <span class="middle"></span>
+                  <span class="bottom"></span>
+               </div> -->
+               <span style="color: white" class="menu-lable">
+                  Меню
+               </span>
+               <div id="nav-icon3">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+               <div class="overlay" id="overlay">
+                  <nav class="overlay-menu">
+                      <ul>
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">About</a></li>
+                          <li><a href="#">Work</a></li>
+                          <li><a href="#">Contact</a></li>
+                      </ul>
+                  </nav>
+              </div>
+            </div>
+         </div>
+      </div>
+      <section class="intro mt-5">
+         <div class="container">
+            <div class="row">
+               <div class="col-12 offset-5">
+                  <ul class="categories d-flex justify-content-around w-100">
+                     <li class="text-uppercase categories-item">
+                        Вітальні
+                     </li>
+                     <li class="text-uppercase categories-item">
+                        Спальні
+                     </li>
+                     <li class="text-uppercase categories-item">
+                        Сходи
+                     </li>
+                     <li class="text-uppercase categories-item">
+                        Кухні
+                     </li>
 
-  </main>
+                   </ul>
+               </div>
+            </div>
+            <div class="row mt-5">
+               <div class="col-5 mt-5">
+                  <div class="intro-block">
+                     <h1>
+                        Бездоганні вироби
+                        <span>
+                           з масиву елітної деревини
+                        </span>
+                     </h1>
+                    <div class="mt-5 d-flex align-items-center justify-content-around">
+                      <a href="#" class="text-uppercase gallery px-4 py-3">
+                        Галерея робіт
+                      </a>
+                      <a href="#" class="text-uppercase history-link">
+                        25 років історії
+                      </a>
+                    </div>
+                  </div>
+                 <div class="feedback">
+                   <a href="#" class="text-uppercase d-inline-block p-4">
+                     Зворотній зв'язок
+                     <img src="../public/images/tel.svg" alt="Tel">
+                   </a>
+                 </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </header>
 
-  <!-- FOOTER -->
-  <footer class="footer">
-    
-  </footer>
+   <main role="main">
+     <section class="history mb-5">
+       <div class="container">
+         <div class="row pt-5">
+           <div class="col-md-6">
+             <div class="what-we-do__title d-flex align-items-center mt-4 mt-sm-5">
+               <div class="what-we-do__line-holder what-we-do__line-holder-about">
+                 <div class="what-we-do__line" style="width: 55px;"></div>
+               </div>
+               <span class="home text-uppercase">
+               Про Чумак
+            </span>
+             </div>
+             <div>
+               <h2 class="history__title">
+                 25 років історії
+               </h2>
+               <p class="history__desc">
+                 Вже більше 20 років ми виготовляємо вироби із деревини, та елітні меблі на замовлення.
+                 <span class="d-inline-block mt-3">
+                   На нашому підприємстві працюють талановиті, висококваліфіковані працівники, які проектують і виготовляють ексклюзивні вироби
+              - кухні, вітальні, спальні, сходи, двері, євро вікна, барні стійки, полиці для камінів, офісні меблі, столи, крісла та ін.
+              Багаторічний досвід роботи вказує на те , що нас обирають тоді, коли люди шукають індивідуальні рішення для довершення своїх інтер'єрів ...
+              </span>
+               </p>
+               <a href="#" class="text-uppercase d-inline-block align-items-center history__more mt-3 px-5 py-3">
+                 Більше
+                 <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                   <path d="M1.33667 1L6.33667 6.5L1.33667 12" stroke="#D6AB63"/>
+                 </svg>
+               </a>
+             </div>
+           </div>
+           <div class="col-md-4" >
+             <div class="count p-2">
+               <span class="d-inline-block"></span>
+               <p class="сount__text">
+                 Кількість <br>
+                 виконаних замовлень
+               </p>
+               <p class="count__num">
+                 500+
+               </p>
+             </div>
+           </div>
+         </div>
+       </div>
+     </section>
+
+     <section class="styles mt-5">
+       <div class="container-fluid">
+         <div class="row">
+           <div class="col-12">
+             <div class="d-flex justify-content-center block-imgs">
+               <img src="../public/images/Rectangle 24.png" alt="">
+               <img src="../public/images/Group 929.png" alt="">
+             </div>
+             <div class="styles-label list-group d-flex text-center" id="list-tab" role="tablist">
+               <a class="list-group-item list-group-item-action active" id="list-home-list"
+                  data-toggle="list" href="#list-home" role="tab" aria-controls="home">Класичні стилі</a>
+
+               <a class="list-group-item list-group-item-action" id="list-profile-list"
+                  data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Сучасні стилі</a>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="container-fluid lists">
+         <div class="row">
+           <div class="col-12 d-flex justify-content-center p-3">
+             <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+               <ul class="nav md-pills flex-center flex-wrap mx-0" role="tablist">
+                 <li class="nav-item">
+                   <a class="nav-link active font-weight-bold text-uppercase" data-toggle="tab" href="#panel31" role="tab">ЛІЖКА</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link font-weight-bold text-uppercase" data-toggle="tab" href="#panel32" role="tab">КУХНІ</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link font-weight-bold text-uppercase" data-toggle="tab" href="#panel33" role="tab">СПАЛЬНІ</a>
+                 </li>
+               </ul>
+             </div>
+             <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+               <ul class="nav md-pills flex-center flex-wrap mx-0" role="tablist">
+                 <li class="nav-item">
+                   <a class="nav-link active font-weight-bold text-uppercase" data-toggle="tab" href="#panel31" role="tab">СХОДИ</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link font-weight-bold text-uppercase" data-toggle="tab" href="#panel32" role="tab">КУХНІ</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link font-weight-bold text-uppercase" data-toggle="tab" href="#panel33" role="tab">СПАЛЬНІ</a>
+                 </li>
+               </ul>
+             </div>
+           </div>
+         </div>
+       </div>
+     </section>
+   </main>
+
+   <!-- FOOTER -->
+   <footer class="footer">
+
+   </footer>
 </body>
 
 </html>

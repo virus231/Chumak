@@ -1,0 +1,46 @@
+.block-imgs {
+  position: relative;
+  img {
+    width: 1200px;
+  }
+}
+
+.styles-label  {
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.list-group-item {
+  color: white;
+  background: none;
+  border: 3px solid white;
+  transition: all .33s;
+  font-family: Tenor Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+
+  &:hover {
+    background: linear-gradient(180deg, #D6AB63 0%, #A88447 100%);
+    color: white;
+    //border: 1px solid transparent;
+  }
+  &.active {
+    background: linear-gradient(180deg, #D6AB63 0%, #A88447 100%);
+    outline: none;
+    border: 1px solid transparent;
+  }
+}
+
+.list-group-item + .list-group-item {
+  border-top-width: initial;
+}
+
+.lists {
+  background: rosybrown;
+}
+
