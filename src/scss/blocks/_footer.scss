@@ -1,0 +1,44 @@
+.footer {
+  background: linear-gradient(180deg, #756E69 0%, #3E3D3D 100%);
+  color: white;
+}
+
+.numbers {
+  a {
+    color: white;
+    transition: all .33s;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+
+    &:hover {
+      color: #D6AB63;
+    }
+  }
+}
+
+
+.address {
+  a {
+    color: white;
+    transition: all .33s;
+
+    &:hover {
+      color: #D6AB63
+    }
+  }
+}
+
+.links {
+  a {
+    color: white;
+    display: inline-block;
+    margin-bottom: 10px;
+    transition: all .33s;
+
+    &:hover {
+      color: #D6AB63
+    }
+  }
+}

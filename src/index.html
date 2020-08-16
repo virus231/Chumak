@@ -2,244 +2,859 @@
 <html lang="en">
 
 <head>
-   <meta charset="utf-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-   <meta name="description" content="" />
-   <meta name="author" content="" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
 
-   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Tenor+Sans&display=swap" rel="stylesheet">
-
-
-   <title>Чумак</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Tenor+Sans&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css"
+    integrity="sha512-nNlU0WK2QfKsuEmdcTwkeh+lhGs6uyOxuUs+n+0oXSYDok5qy0EI0lt01ZynHq6+p/tbgpZ7P+yUb+r71wqdXg=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="//cdn.materialdesignicons.com/2.1.99/css/materialdesignicons.min.css">
+  <title>Чумак</title>
 </head>
 
 <body>
-   <!-- Swiper -->
-   <div class="swiper-container">
+  <!-- Swiper -->
+  <div class="swiper-container">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-         <img src="../public/images/vital.png" alt="">
+        <img src="../public/images/vital.png" alt="">
       </div>
       <div class="swiper-slide">
-         <img src="../public/images/Спальні.png" alt="">
+        <img src="../public/images/Спальні.png" alt="">
       </div>
       <div class="swiper-slide">
-         <img src="../public/images/Group 927.png" alt="">
+        <img src="../public/images/Group 927.png" alt="">
       </div>
       <div class="swiper-slide">
-         <img src="../public/images/Кухні.png" alt="">
+        <img src="../public/images/Кухні.png" alt="">
       </div>
 
     </div>
-     <!-- Add Arrows -->
-     <div class="swiper-button-next"></div>
-     <div class="swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
   </div>
 
-   <header class="header" role="header">
-      <div class="container">
-         <div class="row pt-3 justify-content-between align-items-center">
-            <div class="col-md-2">
-               <a href="#">
-                  <img src="../public/images/logo.png" class="logo" alt="Logo">
-               </a>
-            </div>
-            <div class="col-md-6">
-               <div class="d-flex justify-content-around info-top">
-                  <a href="#" class="d-inline-block">
-                     м. Львів, пр. Шевченка 11/9
-                  </a>
-                  <a href="#" class="d-inline-block">
-                     +38 (067) 673 3892
-                  </a>
-               </div>
-            </div>
-            <div class="col-md-2 d-flex align-items-center justify-content-around">
-               <!-- <div class="button_container" id="toggle">
+  <header class="header" role="header">
+    <div class="container">
+      <div class="row pt-3 justify-content-between align-items-center">
+        <div class="col-md-2">
+          <a href="#">
+            <img src="../public/images/logo.png" class="logo" alt="Logo">
+          </a>
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex justify-content-around info-top">
+            <a href="#" class="d-inline-block">
+              м. Львів, пр. Шевченка 11/9
+            </a>
+            <a href="#" class="d-inline-block">
+              +38 (067) 673 3892
+            </a>
+          </div>
+        </div>
+        <div class="col-md-2 d-flex align-items-center justify-content-around">
+          <!-- <div class="button_container" id="toggle">
                   <span class="top"></span>
                   <span class="middle"></span>
                   <span class="bottom"></span>
                </div> -->
-               <span style="color: white" class="menu-lable">
-                  Меню
-               </span>
-               <div id="nav-icon3">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
-               <div class="overlay" id="overlay">
-                  <nav class="overlay-menu">
-                      <ul>
-                          <li><a href="#">Home</a></li>
-                          <li><a href="#">About</a></li>
-                          <li><a href="#">Work</a></li>
-                          <li><a href="#">Contact</a></li>
-                      </ul>
-                  </nav>
+          <span style="color: white" class="menu-lable">
+            Меню
+          </span>
+          <div id="nav-icon3">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="overlay" id="overlay">
+            <nav class="overlay-menu">
+              <ul>
+                <li><a href="#">Про компанію</a></li>
+                <li><a href="#">Класичні стилі</a></li>
+                <li><a href="#">Сучасні стилі</a></li>
+                <li><a href="#">Тематичні вироби</a></li>
+                <li><a href="#">Процес виробництва</a></li>
+                <li><a href="#">Залишити заявку</a></li>
+                <li><a href="#">Контакти</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="intro mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 offset-5">
+            <ul class="categories d-flex justify-content-around w-100">
+              <li class="text-uppercase categories-item">
+                Вітальні
+              </li>
+              <li class="text-uppercase categories-item">
+                Спальні
+              </li>
+              <li class="text-uppercase categories-item">
+                Сходи
+              </li>
+              <li class="text-uppercase categories-item">
+                Кухні
+              </li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-5 mt-5">
+            <div class="intro-block">
+              <h1>
+                Бездоганні вироби
+                <span>
+                  з масиву елітної деревини
+                </span>
+              </h1>
+              <div class="mt-5 d-flex align-items-center justify-content-around">
+                <a href="#" class="text-uppercase gallery px-4 py-3">
+                  Галерея робіт
+                </a>
+                <a href="#" class="text-uppercase history-link">
+                  25 років історії
+                </a>
               </div>
             </div>
-         </div>
+            <div class="feedback">
+              <a href="#" class="text-uppercase d-inline-block p-4">
+                Зворотній зв'язок
+                <img src="../public/images/tel.svg" alt="Tel">
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-      <section class="intro mt-5">
-         <div class="container">
-            <div class="row">
-               <div class="col-12 offset-5">
-                  <ul class="categories d-flex justify-content-around w-100">
-                     <li class="text-uppercase categories-item">
-                        Вітальні
-                     </li>
-                     <li class="text-uppercase categories-item">
-                        Спальні
-                     </li>
-                     <li class="text-uppercase categories-item">
-                        Сходи
-                     </li>
-                     <li class="text-uppercase categories-item">
-                        Кухні
-                     </li>
+    </section>
+  </header>
 
-                   </ul>
-               </div>
-            </div>
-            <div class="row mt-5">
-               <div class="col-5 mt-5">
-                  <div class="intro-block">
-                     <h1>
-                        Бездоганні вироби
-                        <span>
-                           з масиву елітної деревини
-                        </span>
-                     </h1>
-                    <div class="mt-5 d-flex align-items-center justify-content-around">
-                      <a href="#" class="text-uppercase gallery px-4 py-3">
-                        Галерея робіт
-                      </a>
-                      <a href="#" class="text-uppercase history-link">
-                        25 років історії
-                      </a>
-                    </div>
-                  </div>
-                 <div class="feedback">
-                   <a href="#" class="text-uppercase d-inline-block p-4">
-                     Зворотній зв'язок
-                     <img src="../public/images/tel.svg" alt="Tel">
-                   </a>
-                 </div>
-               </div>
-            </div>
-         </div>
-      </section>
-   </header>
-
-   <main role="main">
-     <section class="history mb-5">
-       <div class="container">
-         <div class="row pt-5">
-           <div class="col-md-6">
-             <div class="what-we-do__title d-flex align-items-center mt-4 mt-sm-5">
-               <div class="what-we-do__line-holder what-we-do__line-holder-about">
-                 <div class="what-we-do__line" style="width: 55px;"></div>
-               </div>
-               <span class="home text-uppercase">
-               Про Чумак
-            </span>
-             </div>
-             <div>
-               <h2 class="history__title">
-                 25 років історії
-               </h2>
-               <p class="history__desc">
-                 Вже більше 20 років ми виготовляємо вироби із деревини, та елітні меблі на замовлення.
-                 <span class="d-inline-block mt-3">
-                   На нашому підприємстві працюють талановиті, висококваліфіковані працівники, які проектують і виготовляють ексклюзивні вироби
-              - кухні, вітальні, спальні, сходи, двері, євро вікна, барні стійки, полиці для камінів, офісні меблі, столи, крісла та ін.
-              Багаторічний досвід роботи вказує на те , що нас обирають тоді, коли люди шукають індивідуальні рішення для довершення своїх інтер'єрів ...
+  <main role="main">
+    <section class="history mb-5">
+      <div class="container">
+        <div class="row pt-5">
+          <div class="col-md-6">
+            <div class="what-we-do__title d-flex align-items-center mt-4 mt-sm-5">
+              <div class="what-we-do__line-holder what-we-do__line-holder-about">
+                <div class="what-we-do__line" style="width: 55px;"></div>
+              </div>
+              <span class="home text-uppercase">
+                Про Чумак
               </span>
-               </p>
-               <a href="#" class="text-uppercase d-inline-block align-items-center history__more mt-3 px-5 py-3">
-                 Більше
-                 <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                   <path d="M1.33667 1L6.33667 6.5L1.33667 12" stroke="#D6AB63"/>
-                 </svg>
-               </a>
-             </div>
-           </div>
-           <div class="col-md-4" >
-             <div class="count p-2">
-               <span class="d-inline-block"></span>
-               <p class="сount__text">
-                 Кількість <br>
-                 виконаних замовлень
-               </p>
-               <p class="count__num">
-                 500+
-               </p>
-             </div>
-           </div>
-         </div>
-       </div>
-     </section>
+            </div>
+            <div>
+              <h2 class="history__title">
+                25 років історії
+              </h2>
+              <p class="history__desc">
+                Вже більше 20 років ми виготовляємо вироби із деревини, та елітні меблі на замовлення.
+                <span class="d-inline-block mt-3">
+                  На нашому підприємстві працюють талановиті, висококваліфіковані працівники, які проектують і
+                  виготовляють ексклюзивні вироби
+                  - кухні, вітальні, спальні, сходи, двері, євро вікна, барні стійки, полиці для камінів, офісні меблі,
+                  столи, крісла та ін.
+                  Багаторічний досвід роботи вказує на те , що нас обирають тоді, коли люди шукають індивідуальні
+                  рішення для довершення своїх інтер'єрів ...
+                </span>
+              </p>
+              <a href="#" class="text-uppercase d-inline-block align-items-center history__more mt-3 px-5 py-3">
+                Більше
+                <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.33667 1L6.33667 6.5L1.33667 12" stroke="#D6AB63" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="count p-2">
+              <span class="d-inline-block"></span>
+              <p class="сount__text">
+                Кількість <br>
+                виконаних замовлень
+              </p>
+              <p class="count__num">
+                500+
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-     <section class="styles mt-5">
-       <div class="container-fluid">
-         <div class="row">
-           <div class="col-12">
-             <div class="d-flex justify-content-center block-imgs">
-               <img src="../public/images/Rectangle 24.png" alt="">
-               <img src="../public/images/Group 929.png" alt="">
-             </div>
-             <div class="styles-label list-group d-flex text-center" id="list-tab" role="tablist">
-               <a class="list-group-item list-group-item-action active" id="list-home-list"
-                  data-toggle="list" href="#list-home" role="tab" aria-controls="home">Класичні стилі</a>
+    <section class="styles mt-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="d-flex justify-content-center block-imgs">
+              <img src="../public/images/Rectangle 24.png" alt="">
+              <img src="../public/images/Group 929.png" alt="">
+            </div>
+            <div class="styles-label list-group d-flex text-center" id="list-tab" role="tablist">
+              <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list"
+                href="#list-home" role="tab" aria-controls="home">Класичні стилі</a>
 
-               <a class="list-group-item list-group-item-action" id="list-profile-list"
-                  data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Сучасні стилі</a>
-             </div>
-           </div>
-         </div>
-       </div>
-       <div class="container-fluid lists">
-         <div class="row">
-           <div class="col-12 d-flex justify-content-center p-3">
-             <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
-               <ul class="nav md-pills flex-center flex-wrap mx-0" role="tablist">
-                 <li class="nav-item">
-                   <a class="nav-link active font-weight-bold text-uppercase" data-toggle="tab" href="#panel31" role="tab">ЛІЖКА</a>
-                 </li>
-                 <li class="nav-item">
-                   <a class="nav-link font-weight-bold text-uppercase" data-toggle="tab" href="#panel32" role="tab">КУХНІ</a>
-                 </li>
-                 <li class="nav-item">
-                   <a class="nav-link font-weight-bold text-uppercase" data-toggle="tab" href="#panel33" role="tab">СПАЛЬНІ</a>
-                 </li>
-               </ul>
-             </div>
-             <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
-               <ul class="nav md-pills flex-center flex-wrap mx-0" role="tablist">
-                 <li class="nav-item">
-                   <a class="nav-link active font-weight-bold text-uppercase" data-toggle="tab" href="#panel31" role="tab">СХОДИ</a>
-                 </li>
-                 <li class="nav-item">
-                   <a class="nav-link font-weight-bold text-uppercase" data-toggle="tab" href="#panel32" role="tab">КУХНІ</a>
-                 </li>
-                 <li class="nav-item">
-                   <a class="nav-link font-weight-bold text-uppercase" data-toggle="tab" href="#panel33" role="tab">СПАЛЬНІ</a>
-                 </li>
-               </ul>
-             </div>
-           </div>
-         </div>
-       </div>
-     </section>
-   </main>
+              <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list"
+                href="#list-profile" role="tab" aria-controls="profile">Сучасні стилі</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid lists">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center p-3">
 
-   <!-- FOOTER -->
-   <footer class="footer">
+            <!--             <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">-->
+            <!--               <ul class="nav md-pills flex-center flex-wrap mx-0" role="tablist">-->
+            <!--                 <li class="nav-item">-->
+            <!--                   <a class="nav-link active font-weight-bold text-uppercase" data-toggle="tab" href="#panel31" role="tab">ЛІЖКА</a>-->
+            <!--                 </li>-->
+            <!--                 <li class="nav-item">-->
+            <!--                   <a class="nav-link font-weight-bold text-uppercase" data-toggle="tab" href="#panel32" role="tab">КУХНІ</a>-->
+            <!--                 </li>-->
+            <!--                 <li class="nav-item">-->
+            <!--                   <a class="nav-link font-weight-bold text-uppercase" data-toggle="tab" href="#panel33" role="tab">СПАЛЬНІ</a>-->
+            <!--                 </li>-->
+            <!--               </ul>-->
+            <!--             </div>-->
 
-   </footer>
+            <!--             <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">-->
+            <!--               <ul class="nav md-pills flex-center flex-wrap mx-0" role="tablist">-->
+            <!--                 <li class="nav-item">-->
+            <!--                   <a class="nav-link active font-weight-bold text-uppercase" data-toggle="tab" href="#panel31" role="tab">СХОДИ</a>-->
+            <!--                 </li>-->
+            <!--                 <li class="nav-item">-->
+            <!--                   <a class="nav-link font-weight-bold text-uppercase" data-toggle="tab" href="#panel32" role="tab">КУХНІ</a>-->
+            <!--                 </li>-->
+            <!--                 <li class="nav-item">-->
+            <!--                   <a class="nav-link font-weight-bold text-uppercase" data-toggle="tab" href="#panel33" role="tab">СПАЛЬНІ</a>-->
+            <!--                 </li>-->
+            <!--               </ul>-->
+            <!--             </div>-->
+
+            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+              <ul class="nav tabs-cyan justify-content-around" id="myClassicTab-1" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase waves-light active show" id="bed-tab-classic" data-toggle="tab"
+                    href="#bed-classic" role="tab" aria-controls="bed-classic" aria-selected="true">
+                    Ліжка
+
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase waves-light" id="kitchen-tab-classic" data-toggle="tab"
+                    href="#kitchen-classic" role="tab" aria-controls="kitchen-classic" aria-selected="false">
+                    Кухні
+
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+              <ul class="nav tabs-cyan justify-content-around" id="myClassicTab-2" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase waves-light active show" id="all-tab-classic" data-toggle="tab"
+                    href="#all-classic" role="tab" aria-controls="all-classic" aria-selected="true">
+                    Сходи
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase waves-light" id="website-tab-classic" data-toggle="tab"
+                    href="#website-classic" role="tab" aria-controls="website-classic" aria-selected="false">
+                    Кухні
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="tab-content rounded-bottom mt-5" id="myClassicTabContent">
+
+              <div class="tab-pane  fade active show" id="bed-classic" role="tabpanel"
+                aria-labelledby="bed-tab-classic">
+                <div class="carousel-gallery">
+                  <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <p>1</p>
+                        <a href="https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                          data-fancybox="gallery">
+                          <div class="image"
+                            style="background-image: url(https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+                            <div class="overlay">
+                              <em class="mdi mdi-magnify-plus">1</em>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <p>1</p>
+                        <a href="https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                          data-fancybox="gallery">
+                          <div class="image"
+                            style="background-image: url(https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+                            <div class="overlay">
+                              <em class="mdi mdi-magnify-plus">1</em>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <p>1</p>
+                        <a href="https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                          data-fancybox="gallery">
+                          <div class="image"
+                            style="background-image: url(https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+                            <div class="overlay">
+                              <em class="mdi mdi-magnify-plus">1</em>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <p>1</p>
+                        <a href="https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                          data-fancybox="gallery">
+                          <div class="image"
+                            style="background-image: url(https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+                            <div class="overlay">
+                              <em class="mdi mdi-magnify-plus">1</em>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <p>1</p>
+                        <a href="https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                          data-fancybox="gallery">
+                          <div class="image"
+                            style="background-image: url(https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+                            <div class="overlay">
+                              <em class="mdi mdi-magnify-plus">1</em>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <p>1</p>
+                        <a href="https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                          data-fancybox="gallery">
+                          <div class="image"
+                            style="background-image: url(https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+                            <div class="overlay">
+                              <em class="mdi mdi-magnify-plus">1</em>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <p>1</p>
+                        <a href="https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                          data-fancybox="gallery">
+                          <div class="image"
+                            style="background-image: url(https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+                            <div class="overlay">
+                              <em class="mdi mdi-magnify-plus">1</em>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <p>1</p>
+                        <a href="https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                          data-fancybox="gallery">
+                          <div class="image"
+                            style="background-image: url(https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+                            <div class="overlay">
+                              <em class="mdi mdi-magnify-plus">1</em>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <p>1</p>
+                        <a href="https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                          data-fancybox="gallery">
+                          <div class="image"
+                            style="background-image: url(https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+                            <div class="overlay">
+                              <em class="mdi mdi-magnify-plus">1</em>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <p>1</p>
+                        <a href="https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                          data-fancybox="gallery">
+                          <div class="image"
+                            style="background-image: url(https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+                            <div class="overlay">
+                              <em class="mdi mdi-magnify-plus">1</em>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <p>1</p>
+                        <a href="https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                          data-fancybox="gallery">
+                          <div class="image"
+                            style="background-image: url(https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+                            <div class="overlay">
+                              <em class="mdi mdi-magnify-plus">1</em>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane  fade show" id="kitchen-classic" role="tabpanel"
+                aria-labelledby="kitchen-tab-classic">
+                <div class="carousel-gallery">
+                  <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <p>2</p>
+                        <a href="https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                          data-fancybox="gallery">
+                          <div class="image"
+                            style="background-image: url(https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+                            <div class="overlay">
+                              <em class="mdi mdi-magnify-plus"></em>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <p>1</p>
+                        <a href="https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                          data-fancybox="gallery">
+                          <div class="image"
+                            style="background-image: url(https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+                            <div class="overlay">
+                              <em class="mdi mdi-magnify-plus">1</em>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <p>1</p>
+                        <a href="https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                          data-fancybox="gallery">
+                          <div class="image"
+                            style="background-image: url(https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+                            <div class="overlay">
+                              <em class="mdi mdi-magnify-plus">1</em>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <p>1</p>
+                        <a href="https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                          data-fancybox="gallery">
+                          <div class="image"
+                            style="background-image: url(https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+                            <div class="overlay">
+                              <em class="mdi mdi-magnify-plus">1</em>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <p>1</p>
+                        <a href="https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                          data-fancybox="gallery">
+                          <div class="image"
+                            style="background-image: url(https://images.pexels.com/photos/48794/boy-walking-teddy-bear-child-48794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+                            <div class="overlay">
+                              <em class="mdi mdi-magnify-plus">1</em>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="facts mt-5">
+      <div class="container">
+        <div class="row d-flex justify-content-end">
+          <div class="col-md-6">
+            <div class="what-we-do__title d-flex align-items-center mt-4 mt-sm-5">
+              <div class="what-we-do__line-holder what-we-do__line-holder-about">
+                <div class="what-we-do__line" style="width: 55px;"></div>
+              </div>
+              <span class="home text-uppercase">
+                Процес Виробництва
+              </span>
+            </div>
+            <div class="facts-block">
+              <h2 class="facts-block__title">
+                Факти про виробництво
+              </h2>
+              <p class="facts-block__desc">
+                <span>
+                  Ми не використовуємо у виробництві плити ДСП.
+                </span>
+                <br>
+                У зв'язку з тим що до складу ДСП додають смоли, які містять формальдегід, а це речовина яка виділяється
+                на зовні і поступово отруює здоров'я.
+              </p>
+              <p>
+                Всі бокові щити виготовляю ться зі столярної плити австрійського виробництва.
+              </p>
+              <p>
+                Не використовуємо матеріали не сертифікованих виробників.
+              </p>
+              <p>
+                Використовуємо дерево місцевого походження, виключно з екологічно чистих регіонів Карпат.
+              </p>
+              <a href="#"
+                class="text-uppercase d-inline-block align-items-center text-center history__more mt-3 px-5 py-3">
+                Більше
+                <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.33667 1L6.33667 6.5L1.33667 12" stroke="#D6AB63" />
+                </svg>
+              </a>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5 d-flex justify-content-end">
+          <div class="col-md-4">
+            <div class="count text-right p-4">
+              <span class="d-inline-block text-center"></span>
+              <p class="сount__text idea-now">
+                ми готові обговорити і <br>
+                втілити ваші власні ідеї вже сьогодні !
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="form mt-5 py-5">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="what-we-do__title d-flex align-items-center mt-4 mt-sm-5">
+              <div class="what-we-do__line-holder what-we-do__line-holder-about">
+                <div class="what-we-do__line" style="width: 55px;"></div>
+              </div>
+              <span class="home text-uppercase">
+                ЗАЯВКА НА ЗАМОВЛЕННЯ
+              </span>
+            </div>
+            <h2>
+              Індивідуальний <br>
+              підхід до кожного виробу
+            </h2>
+            <p>
+              Співпрацюючи з нами ви отримуєте неповторний результат. Ми зв’яжемося з вами для обговорення деталей
+              вашого замовлення.
+            </p>
+            <form>
+              <div class="input-group">
+                <label for="first-name">Ім’я</label>
+                <input type="text" id="first-name">
+              </div>
+
+              <div class="input-group">
+                <label for="number">Телефон</label>
+                <input type="number" id="number">
+              </div>
+
+              <div class="input-group">
+                <label for="email">Електронна адреса</label>
+                <input type="text" id="email">
+              </div>
+
+              <button class="text-uppercase d-inline-block align-items-center text-center history__more mt-3 px-5 py-3">
+                Надіслати
+                <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.33667 1L6.33667 6.5L1.33667 12" stroke="#D6AB63" />
+                </svg>
+              </button>
+              <span class="d-inline-block mt-3 agree">
+                Заповнивши цю форму, ви даєте згоду на обробку персональних даних відповідно до закону
+              </span>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <h4 class="contacts-title">
+              Контакти
+            </h4>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-8">
+            <div class="d-flex justify-content-around">
+              <p class="number">
+                <a href="tel:+380676733892">
+                  +38 (067) 673 3892
+                  <span>
+                    - Юрій
+                  </span>
+                </a>
+              </p>
+              <p class="number">
+                <a href="tel:+380676093864">
+                  +38 (067) 609 3864
+                  <span>
+                    - Роман
+                  </span>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-between my-4">
+          <div class="col-md-3">
+            <div class="contacts-info">
+              <h5 class="contacts-info__title text-center py-2">
+                Офіс у м.Львів
+              </h5>
+              <p class="d-flex justify-content-around mt-3">
+                <a href="#" class="d-flex justify-content-between align-items-center">
+                  <img src="../public/images/Group 85.svg" class="mr-3 d-inline-block" alt="">
+                  79005, м. Львів,
+                  пр. Шевченка 11/9.
+                </a>
+              </p>
+              <p class="d-flex justify-content-start">
+                <a href="#" class="d-flex justify-content-around align-items-center">
+                  <img src="../public/images/Group.svg" class="mr-3 d-inline-block" alt="">
+                  office@chumak.lviv.ua
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="contacts-info">
+              <h5 class="contacts-info__title text-center py-2">
+                Головний офіс
+              </h5>
+              <p class="d-flex justify-content-around mt-3">
+                <a href="#" class="d-flex justify-content-between align-items-center">
+                  <img src="../public/images/Group 85.svg" class="mr-3 d-inline-block" alt="">
+                  2011, Львівська обл., Старосамбірський р-н,
+                  смт. Нижанковичі, вул. Міцкевича 97
+                </a>
+              </p>
+              <p class="d-flex justify-content-start">
+                <a href="#" class="d-flex justify-content-around align-items-center">
+                  <img src="../public/images/Group.svg" class="mr-3 d-inline-block" alt="">
+                  office@chumak.lviv.ua
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="contacts-info">
+              <h5 class="contacts-info__title text-center py-2">
+                Торгова точка в ТЦ “Три слони”
+              </h5>
+              <p class="d-flex justify-content-start mt-3">
+                <a href="#" class="d-flex justify-content-start align-items-center">
+                  <img src="../public/images/Group 85.svg" class="mr-3 d-inline-block" alt="">
+                  81112 м. Львів,
+                  Кільцева дорога,
+                  виїзд з вул. Городоцька
+                </a>
+              </p>
+              <p class="d-flex justify-content-start">
+                <a href="#" class="d-flex justify-content-around align-items-center">
+                  <img src="../public/images/tel.svg" class="mr-3 d-inline-block" alt="">
+                  (097) 216-78-72
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1286.6313408901258!2d24.030909758234603!3d49.83752162476004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add6ece325911%3A0xf8114a9c6cfaaa40!2z0L_RgNC-0YHQvy4g0KjQtdCy0YfQtdC90LrQsCwgMTEsINCb0YzQstGW0LIsINCb0YzQstGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1suk!2sua!4v1455645065406"
+              width="100%" height="0" frameborder="0"
+              style="border: 0px; height: 500px; top: 0px; pointer-events: auto;" allowfullscreen=""></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer py-5">
+    <div class="container">
+      <div class="row d-flex justify-content-between">
+        <div class="col-md-2">
+          <a href="#">
+            <img src="../public/images/logo.png" alt="Logo">
+          </a>
+        </div>
+        <div class="col-md-2">
+          <div>
+            <p>
+              <a href="#" class="d-inline-block mr-4">
+                <svg width="13" height="22" viewBox="0 0 13 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M11.6662 0.00453084L8.75849 0C5.49182 0 3.38075 2.10344 3.38075 5.35908V7.82998H0.457204C0.204576 7.82998 0 8.02888 0 8.27423V11.8543C0 12.0996 0.204809 12.2983 0.457204 12.2983H3.38075V21.3319C3.38075 21.5772 3.58532 21.7759 3.83795 21.7759H7.65234C7.90497 21.7759 8.10954 21.577 8.10954 21.3319V12.2983H11.5278C11.7805 12.2983 11.985 12.0996 11.985 11.8543L11.9864 8.27423C11.9864 8.15642 11.9382 8.04361 11.8526 7.96024C11.7669 7.87687 11.6503 7.82998 11.529 7.82998H8.10954V5.73537C8.10954 4.72862 8.35657 4.21754 9.70696 4.21754L11.6657 4.21686C11.9181 4.21686 12.1227 4.01795 12.1227 3.77283V0.448554C12.1227 0.203661 11.9183 0.00498393 11.6662 0.00453084Z"
+                    fill="#EBEBEB" />
+                </svg>
+              </a>
+              <a href="#">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M2.87122 0H19.0573C20.5944 0 21.8521 1.13804 21.8521 2.79479V18.9811C21.8521 20.6379 20.5944 21.7759 19.0573 21.7759H2.87122C1.33362 21.7759 0.0761719 20.6379 0.0761719 18.9811V2.79479C0.0761719 1.13804 1.33362 0 2.87122 0ZM15.9391 2.4194C15.3998 2.4194 14.9592 2.8603 14.9592 3.39981V5.74632C14.9592 6.2856 15.3998 6.72673 15.9391 6.72673H18.4004C18.9397 6.72673 19.3808 6.2856 19.3808 5.74632V3.39981C19.3808 2.8603 18.9397 2.4194 18.4004 2.4194H15.9391ZM19.3911 9.20896H17.4745C17.6558 9.80101 17.754 10.4282 17.754 11.077C17.754 14.699 14.7231 17.6351 10.9849 17.6351C7.24702 17.6351 4.21653 14.699 4.21653 11.077C4.21653 10.4277 4.31446 9.80078 4.49602 9.20896H2.49604V18.4074C2.49604 18.8834 2.88553 19.2731 3.36177 19.2731H18.5258C19.002 19.2731 19.3915 18.8836 19.3915 18.4074V9.20896H19.3911ZM10.9847 6.60309C8.56953 6.60309 6.61136 8.5002 6.61136 10.8407C6.61136 13.1811 8.56953 15.0782 10.9847 15.0782C13.4001 15.0782 15.3585 13.1811 15.3585 10.8407C15.3585 8.5002 13.4003 6.60309 10.9847 6.60309Z"
+                    fill="#EBEBEB" />
+                </svg>
+              </a>
+            </p>
+            <p class="numbers">
+              <a href="#">
+                +38 (067) 673 3892
+              </a>
+              <a href="#" class="d-inline-block mt-3">
+                +38 (067) 673 3892
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <p class="d-flex justify-content-around address">
+            <a href="#" class="d-flex justify-content-between align-items-center">
+              <svg width="51" height="27" viewBox="0 0 21 27" fill="none" xmlns="http://www.w3.org/2000/svg"
+                class="mr-3">
+                <path
+                  d="M10.5 0C4.7103 0 0 4.16234 0 9.27851C0 11.0071 0.541859 12.694 1.56736 14.1576L9.90232 26.0267C10.062 26.2541 10.3433 26.3922 10.6458 26.3922C10.6481 26.3922 10.6504 26.3922 10.6527 26.3922C10.9579 26.3901 11.2397 26.2477 11.3965 26.0163L19.519 14.0322C20.4879 12.5996 21 10.9558 21 9.27851C21 4.16234 16.2897 0 10.5 0ZM18.0172 13.2383L10.6325 24.1337L3.05474 13.3428C2.20115 12.1246 1.73833 10.7193 1.73833 9.27851C1.73833 5.01504 5.67525 1.53611 10.5 1.53611C15.3247 1.53611 19.2558 5.01504 19.2558 9.27851C19.2558 10.6765 18.8235 12.046 18.0172 13.2383Z"
+                  fill="white" />
+                <path
+                  d="M10.5 4.63916C7.60515 4.63916 5.25 6.72033 5.25 9.27842C5.25 11.8202 7.56682 13.9177 10.5 13.9177C13.4693 13.9177 15.75 11.7922 15.75 9.27842C15.75 6.72033 13.3948 4.63916 10.5 4.63916ZM10.5 12.3816C8.56001 12.3816 6.98833 10.9881 6.98833 9.27842C6.98833 7.57303 8.5701 6.17527 10.5 6.17527C12.4299 6.17527 14.0058 7.57303 14.0058 9.27842C14.0058 10.9631 12.4707 12.3816 10.5 12.3816Z"
+                  fill="white" />
+              </svg>
+              79005, м. Львів,
+              пр. Шевченка 11/9.
+            </a>
+          </p>
+          <p class="d-flex justify-content-start address">
+            <a href="#" class="d-flex justify-content-around align-items-center">
+              <svg width="25" height="19" viewBox="0 0 25 19" fill="none" xmlns="http://www.w3.org/2000/svg"
+                class="mr-3">
+                <path
+                  d="M22.8027 0.578613H2.19727C0.987207 0.578613 0 1.53256 0 2.70416V16.8745C0 18.0421 0.982813 19 2.19727 19H22.8027C24.0098 19 25 18.0493 25 16.8745V2.70416C25 1.53653 24.0172 0.578613 22.8027 0.578613ZM22.4993 1.99564L12.5466 11.6236L2.50776 1.99564H22.4993ZM1.46484 16.5811V2.99083L8.51948 9.75668L1.46484 16.5811ZM2.50063 17.583L9.55972 10.7543L12.0332 13.1265C12.3195 13.4011 12.7816 13.4002 13.0667 13.1243L15.4785 10.7913L22.4994 17.583H2.50063ZM23.5352 16.581L16.5143 9.78932L23.5352 2.99758V16.581Z"
+                  fill="white" />
+              </svg>
+              office@chumak.lviv.ua
+            </a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="links">
+            <a href="#">
+              Про компанію
+            </a>
+            <a href="#">
+              Класичні стилі
+            </a>
+            <a href="#">
+              Сучасні стилі
+            </a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="links">
+            <a href="#">
+              Тематичні вироби
+            </a>
+            <a href="#">
+              Процес виробництва
+            </a>
+            <a href="#">
+              Залишити заявку
+            </a>
+          </p>
+        </div>
+
+      </div>
+    </div>
+    <hr style="background: #D6AB63; height: 1px;">
+    <div class="container">
+      <div class="row d-flex justify-content-between">
+        <div class="col-md-3">
+          <p>
+            Chumak © All Rights Reserved
+          </p>
+        </div>
+        <div class="col-md-3">
+          <p>
+            <a href="#">
+              Політика конфіденційності
+            </a>
+          </p>
+        </div>
+        <div class="col-md-3">
+          <p >
+              Made with love by
+            <a href="#">
+              Siteen
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/js/swiper.min.js"></script>
 </body>
 
 </html>

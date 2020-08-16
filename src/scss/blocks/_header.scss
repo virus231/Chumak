@@ -167,6 +167,18 @@ $button-width: 22px;
             &:nth-of-type(4) {
                 animation-delay: 0.5s;
             }
+
+            &:nth-of-type(5) {
+                animation-delay: 0.55s;
+            }
+
+            &:nth-of-type(6) {
+                animation-delay: 0.6s;
+            }
+
+            &:nth-of-type(7) {
+                animation-delay: 0.65s;
+            }
         }
     }
 
@@ -175,9 +187,10 @@ $button-width: 22px;
         height: 70%;
         top: 50%;
         transform: translateY(-50%);
-        font-size: 50px;
-        font-family: "Varela Round", serif;
-        font-weight: 400;
+        font-family: Tenor Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 34px;
         text-align: center;
     }
 
@@ -203,6 +216,11 @@ $button-width: 22px;
                 color: $color-link;
                 text-decoration: none;
                 overflow: hidden;
+                transition: all .33s;
+
+                &:hover {
+                    color: #D6AB63 !important;
+                }
 
                 &:hover:after,
                 &:focus:after,
@@ -218,7 +236,7 @@ $button-width: 22px;
                     width: 0%;
                     transform: translateX(-50%);
                     height: 3px;
-                    background: $color-link;
+                    background: #D6AB63;
                     transition: 0.35s;
                 }
             }
@@ -294,4 +312,8 @@ $button-width: 22px;
         width: 1920px;
         height: 100vh;
     }
+  }
+
+  .overlay ul {
+      height: 60% !important;
   }

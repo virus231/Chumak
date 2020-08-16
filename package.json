@@ -13,6 +13,7 @@
     "start": "npm run dev"
   },
   "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
     "bootstrap": "^4.3.1",
     "jquery": "^3.5.1",
     "popper.js": "^1.15.0",

@@ -20,10 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08dc9390-ea2e-4e90-86c2-d11dbd9a65e7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/blocks/_styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/blocks/_styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,6 +83,9 @@
       <option name="presentableId" value="Default" />
       <updated>1597318142032</updated>
       <workItem from="1597318143872" duration="19304000" />
+      <workItem from="1597407878275" duration="56000" />
+      <workItem from="1597477545249" duration="10690000" />
+      <workItem from="1597570488723" duration="1556000" />
     </task>
     <servers />
   </component>
@@ -98,28 +102,33 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="707" y="395" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1597330349716">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="707" y="395" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1080@0.0.1920.1080" timestamp="1597330349716" />
-    <state width="1899" height="190" key="GridCell.Tab.0.bottom" timestamp="1597352507461">
+    <state x="739" y="294" key="FileChooserDialogImpl" timestamp="1597407936331">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1597352507461" />
-    <state width="1899" height="190" key="GridCell.Tab.0.center" timestamp="1597352507459">
+    <state x="739" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1597407936331" />
+    <state width="1897" height="175" key="GridCell.Tab.0.bottom" timestamp="1597572058730">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="190" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1597352507459" />
-    <state width="1899" height="190" key="GridCell.Tab.0.left" timestamp="1597352507457">
+    <state width="1897" height="175" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1597572058730" />
+    <state width="1897" height="175" key="GridCell.Tab.0.center" timestamp="1597572058730">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="190" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1597352507457" />
-    <state width="1899" height="190" key="GridCell.Tab.0.right" timestamp="1597352507460">
+    <state width="1897" height="175" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1597572058730" />
+    <state width="1897" height="175" key="GridCell.Tab.0.left" timestamp="1597572058730">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="190" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1597352507460" />
+    <state width="1897" height="175" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1597572058730" />
+    <state width="1897" height="175" key="GridCell.Tab.0.right" timestamp="1597572058730">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1897" height="175" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1597572058730" />
     <state x="472" y="195" key="SettingsEditor" timestamp="1597330659134">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

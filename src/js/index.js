@@ -22,6 +22,81 @@ $('#nav-icon3').click(function() {
   $('.intro').toggleClass('active');
 });
 
+$(function(){
+
+  var swiperGallery = new Swiper('.carousel-gallery .swiper-container', {
+    effect: 'slide',
+    speed: 900,
+    slidesPerView: 5,
+    spaceBetween: 20,
+    simulateTouch: true,
+    autoplay: {
+      delay: 5000,
+      stopOnLastSlide: true,
+      disableOnInteraction: false
+    },
+    pagination: {
+      el: '.carousel-gallery .swiper-pagination',
+      clickable: true
+    },
+    breakpoints: {
+      // when window width is <= 320px
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 5
+      },
+      // when window width is <= 480px
+      425: {
+        slidesPerView: 2,
+        spaceBetween: 10
+      },
+      // when window width is <= 640px
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      }
+    }
+  }); /*http://idangero.us/swiper/api/*/
+});
+
+// $('[data-fancybox="gallery"]').fancybox();
+
+$(function () {
+  var selectedClass = "";
+  $(".filter").click(function () {
+    selectedClass = $(this).attr("data-rel");
+    $("#gallery").fadeTo(100, 0.1);
+    $("#gallery div").not("." + selectedClass).fadeOut().removeClass('animation');
+    setTimeout(function () {
+      $("." + selectedClass).fadeIn().addClass('animation');
+      $("#gallery").fadeTo(300, 1);
+    }, 300);
+  });
+});
+
+var inputGroups = [...document.querySelectorAll(".input-group")];
+
+inputGroups.forEach(inputGroup => {
+  var label = inputGroup.children[0];
+  var input = inputGroup.children[1];
+  input.addEventListener("focus", function(){
+    onSelect(label);
+  });
+  input.addEventListener("blur", function(){
+    onBlur(label, input);
+  })
+});
+
+function onSelect(label) {
+  label.classList.add('selected');
+}
+
+function onBlur(label, input) {
+  if (!input.value) {
+    label.classList.remove('selected');
+  }
+}
+
 //  $(document).ready(function(){
 // 	$('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
 // 		$(this).toggleClass('open');
