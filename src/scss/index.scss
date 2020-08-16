@@ -4,6 +4,15 @@
 @import './blocks/intro';
 @import './blocks/history';
 @import './blocks/styles';
+@import './blocks/facts';
+@import './blocks/form';
+@import './blocks/contacts';
+@import './blocks/footer';
+
+
+@import './swiper/swiper-vars.scss';
+@import './swiper/swiper-bundle.scss';
+
 
 
 body {
@@ -19,7 +28,7 @@ a {
   color: black;
 
   &:hover {
-    color: antiquewhite;
+    color: black;
     text-decoration: none;
   }
 }
