@@ -36,8 +36,30 @@
         font-style: normal;
         font-weight: normal;
         font-size: 50px;
-        color: rgba(255, 255, 255, 0.8);
+        color: rgba(255, 255, 255, 0.5);
+        cursor: pointer;
+
+
+        &.active {
+          color: rgba(255, 255, 255, 1);
+
+        }
     }
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4  {
+  &.active {
+    color: rgba(255, 255, 255, 1);
+  }
+}
+
+.item-1 {
+  &.active {
+
+  }
 }
 
 .gallery {
@@ -74,4 +96,12 @@
   img {
     transform: rotate(90deg);
   }
+}
+
+.follow {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  color: white;
 }

@@ -3,6 +3,23 @@
   img {
     width: 1200px;
   }
+
+  .bright {
+    filter: brightness(0.5);
+  }
+
+  .img-1 {
+    &.active {
+      filter: brightness(0.5);
+    }
+  }
+
+  .img-2 {
+    &.active {
+      //filter: blur(5px);
+    }
+  }
+
 }
 
 .styles-label  {
@@ -41,7 +58,8 @@
 }
 
 .lists {
-  background: rosybrown;
+  background: #F8F2E6;
+  height: 9vh;
 }
 
 /*Carousel Gallery*/
@@ -120,5 +138,13 @@
     }
   }
 }
+.fade:not(.show) {
+  display: none !important;
+}
+
+.fade {
+  transition: all .1s !important;
+}
+
 /*# Carousel Gallery*/
 
