@@ -33,3 +33,18 @@
   font-weight: 500;
   font-size: 20px;
 }
+
+@media screen and (max-width: 992px){
+  .facts {
+    height: 125vh;
+    background-position-y: 95%;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .facts {
+    height: 185vh;
+    background-position-y: 103%;
+  }
+}

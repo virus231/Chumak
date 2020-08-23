@@ -26,9 +26,9 @@ body {
 
 a {
   color: black;
-
+  transition: all .33s;
   &:hover {
-    color: black;
+    color: #D6AB63;
     text-decoration: none;
   }
 }

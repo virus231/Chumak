@@ -136,6 +136,35 @@ $('.item-4').click(function() {
   $('.item-3').removeClass('active');
 });
 
+
+const item1 = document.querySelector('.item-1');
+const item2 = document.querySelector('.item-2');
+const item3 = document.querySelector('.item-3');
+const item4 = document.querySelector('.item-4');
+
+let block = document.getElementById('imgs');
+
+item1.addEventListener('click', () => {
+  block.style.backgroundImage = "url('../public/images/vital.png')"; 
+})
+
+
+item2.addEventListener('click', () => {
+  block.style.backgroundImage = "url('../public/images/Спальні.png')"; 
+})
+
+item3.addEventListener('click', () => {
+  block.style.backgroundImage = "url('../public/images/Group 927.png')"; 
+})
+
+item4.addEventListener('click', () => {
+  block.style.backgroundImage = "url('../public/images/Кухні.png')"; 
+})
+
+
+
+
+
 //  $(document).ready(function(){
 // 	$('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
 // 		$(this).toggleClass('open');

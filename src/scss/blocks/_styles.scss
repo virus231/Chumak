@@ -146,5 +146,15 @@
   transition: all .1s !important;
 }
 
+@media screen and (max-width: 567px) {
+  .list-group-item {
+    font-size: 22px;
+  }
+
+  .lists {
+    height: 25vh;
+  }
+}
+
 /*# Carousel Gallery*/
 

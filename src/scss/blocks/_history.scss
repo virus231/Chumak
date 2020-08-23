@@ -54,6 +54,7 @@
   background: url("../public/images/bg-history.png") no-repeat;
   background-size: contain;
   height: 80vh;
+  position: static;
   background-position-x: right;
   background-position-y: center;
 
@@ -123,4 +124,22 @@
   }
 }
 
+@media screen and (max-width: 576px) {
+  .count__num {
+    font-size: 45px;
+  }
+}
 
+@media screen and (max-width: 768px) {
+  .history {
+    height: 110vh;
+    background-position-y: bottom;
+    background-position-x: 140px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .history {
+    height: 140vh;
+  }
+}
